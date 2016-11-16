@@ -6,21 +6,23 @@
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/grid-system.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Shrikhand" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    
 </head>
 <body>
  
 <!--Lisacatalano.github.io/brackets_course/pc.html-->
    
     <header>
-   <div class="container-fluid">
+   <div class="container-fluid cabezaa">
        <div class="row">
            <div class="col-8">
                <img src="img/logo.png" alt="LOGO">
                <span>MOVIE THEATER</span>
            </div>
             
-            <div class="col-4">
+            <div class="col-4" style="text-align:center; padding-top:20px;">
                <div class="search-box">
                <input type="text" placeholder="Buscar.." name="Search_box">
                <i class="fa fa-search"></i>
@@ -39,18 +41,18 @@
    
 <!--Lisacatalano.github.io/brackets_course/pc.html-->
    
-    <section class="hero">
-       <div class="container-fluid">
-        <div class="row banner">
-            <div class="col-8 ">
-               <img src="img/icono.jpg"  width="100" alt="icon">
+    <section class="hero"  style="background-color: #313235; ">
+       <div class="container-fluid" >
+        <div class="row banner" >
+            <div class="col-8 iconosi">
+               <img src="img/icono.jpg"  width="50" alt="icon">
                 
             </div>
             <div class="col-4 movie-info">
                 <div class="pelicula">
                     <h1>BIG HERO 6</h1>
                     <hr>
-                    <span>All Age</span> Don Hall, Chris Willams
+                    <span class="semiboton">All Age</span> Don Hall, Chris Willams
                     <table>
                         <tr>
                            <th> Ratting</th>
@@ -68,8 +70,9 @@
                     </table>
                     
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus ut, quas dignissimos reiciendis corporis veritatis ipsum fugiat, quia, nihil non dolore recusandae illo distinctio! Id perferendis quo quidem, vel.</p>
-                    <input type="button" value="watch trailer">
-                    <button>Book ticket</button>
+                    
+                    <input type="button" value="watch trailer" class="botonuno">
+                    <button class="botondos">Book ticket</button>
                     
                 </div>
             </div>
@@ -105,27 +108,41 @@
     <section class="contenido">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 texto">
                     <h1> 
-                    <small>Don't be late,</small> <br>
-                    Book your ticket now!</h1>
+                    <small style="color:#DDDDD9; ">Don't be late,</small> <br>
+                    Book your ticket now!<br>
+                    <small style="color:#DDDDD9; ">Easy, simple and fast. </small> <br>
+                    <input type="button" value="BOOK TCKET" class="botonfinal"> <br>
+                    <h6 style="color:#EDBA03;">Get Discount up to 10% if you are a menmber!</h6>
+                    </h1>
                 </div>
-                <div class="col-6">
-                    <h3>News</h3>
+                <div class="col-6 textodos">
+                    <h3 style="color:#DDDDD9; ">News</h3>
                    <ul>
+                      <br>
+                           <br>
                        <li>
                            <h4>Lorem ipsum</h4>
-                           <span class="fecha">Nov 11 2014</span>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque totam autem amet laboriosam soluta ipsa, repudiandae recusandae nesciunt. Sint optio esse quibusdam, natus quos odio provident, error asperiores vitae itaque.</p>
+                           <span class="fecha" style="color:#DDDDD9; ">Nov 11 2014</span>
+                           <p style="color:#DDDDD9; " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque totam autem amet laboriosam soluta ipsa, repudiandae recusandae nesciunt. Sint optio esse quibusdam, natus quos odio provident, error asperiores vitae itaque.</p>
+                           <br>
+                           <br>
+                           <hr>
                        </li>
                         <li>
+                          <br>
+                           <br>
                            <h4>Lorem ipsum</h4>
-                           <span class="fecha">Nov 11 2014</span>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque totam autem amet laboriosam soluta ipsa, repudiandae recusandae nesciunt. Sint optio esse quibusdam, natus quos odio provident, error asperiores vitae itaque.</p>
+                           <span class="fecha" style="color: #DDDDD9; ">Nov 11 2014</span>
+                           <p style="color:#DDDDD9; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque totam autem amet laboriosam soluta ipsa, repudiandae recusandae nesciunt. Sint optio esse quibusdam, natus quos odio provident, error asperiores vitae itaque.</p>
+                           <br>
+                           <br>
+                           <hr>
                        </li>
                    </ul>
                    
-                   <p><a href="#">MORE</a></p>
+                   <p><a href="#" style="color:#EDBA03; text-decoration:none; width: bold;">MORE</a></p>
                 </div>                            
             </div>
         </div>
@@ -145,13 +162,19 @@
         </div>
     </section>
     
-    <footer>
-            <div class="container-fluid">
+    <footer style="background-color: #F1F1F0;" >
+            <div class="container-fluid completo">
                 <h4>Disclaimer</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora vitae aliquid accusantium quia corrupti sapiente vero doloremque illo, quibusdam, sed eos asperiores commodi esse rem, ipsa quasi ducimus! Eaque, voluptatibus!</p>
-            <p class="copy">
+           <br>
+               <br>
+               
+                <p class="copy">
                 Created by Fikristudio in Indonesia
             </p>
+             <br>
+               <br>
+               
             <p> Driblle <br>
             Be.nate/ <br>
             www.frikistudio.com
